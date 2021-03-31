@@ -1,0 +1,489 @@
+@font-face {
+  font-family: "Futura-Medium";
+  src: url("../assets/fonts/Futura-Medium.eot");
+  /* IE9 Compat Modes */
+  src: local("Futura-Medium"), local("Futura-Medium"),
+    url("../assets/fonts/Futura-Medium.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../assets/fonts/Futura-Medium.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../assets/fonts/Futura-Medium.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../assets/fonts/Futura-Medium.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/Futura-Medium.svg#Futura-Medium") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Futura-Bold";
+  src: url("../assets/fonts/Futura-Bold.eot");
+  /* IE9 Compat Modes */
+  src: local("Futura-Bold"), local("Futura-Bold"),
+    url("../assets/fonts/Futura-Bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../assets/fonts/Futura-Bold.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../assets/fonts/Futura-Bold.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../assets/fonts/Futura-Bold.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../assets/fonts/Futura-Bold.svg#Futura-Bold") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "FuturaLT";
+  src: url("../assets/fonts/FuturaLT-Bold.ttf");
+}
+
+body {
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Futura-Medium" !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.bordes {
+  border-style: solid;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.boton {
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 8px;
+  border-style: none;
+  font-size: 16px;
+  /* Esta linea quita la X de las sweetalert */
+  transition: transform 80ms ease-in;
+  width: 200px;
+}
+
+.boton:active {
+  transform: scale(0.95);
+}
+
+.boton:focus {
+  outline: none;
+}
+
+.boton:disabled {
+  opacity: 0.6;
+}
+
+.boton.orange {
+  background-color: #f18a00;
+  border-color: #f18a00;
+}
+
+.boton.orangeConfirm {
+  background-color: #f18a00;
+  border-color: #f18a00;
+  width: 300px;
+}
+
+.boton.orangeReingreso {
+  background-color: #f18a00;
+  border-color: #f18a00;
+  margin-top: 20px;
+  width: 220px;
+  font-size: 14pt;
+}
+
+.boton.orangeReingresoMovil {
+  background-color: #f18a00;
+  border-color: #f18a00;
+  width: 110px;
+  font-size: 12pt;
+  padding: 10px;
+}
+
+.boton.darkBlueDocumentacion {
+  background-color: #0062a4;
+  border-color: #0062a4;
+  box-shadow: 2px 2px 12px #888888;
+  width: 110px;
+  font-size: 10pt;
+  padding: 10px;
+}
+
+.boton.lightBlue {
+  background-color: #0062a4;
+  border-color: #0062a4;
+  box-shadow: 2px 2px 12px #888888;
+}
+
+.boton.lightBlue2 {
+  background-color: #10a1d1;
+  border-color: #10a1d1;
+  box-shadow: 2px 2px 12px #888888;
+}
+
+.boton.darkBlue {
+  background-color: #1e3666;
+  border-color: #1e3666;
+  box-shadow: 2px 2px 12px #888888;
+}
+
+.boton.darkBlue2 {
+  background-color: #0d3b70;
+  border-color: #0d3b70;
+  box-shadow: 2px 2px 12px #888888;
+}
+
+.botonOpcion {
+  background-color: #0d3b70;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+
+/* .botonOpcion.nuevo {
+  background-image: url(./assets/images/formulario.png);
+  background-size: cover;
+
+}
+
+.botonOpcion.equiva {
+  background-image: url(assets/images/formulario.png);
+  background-size: cover;
+}
+
+.botonOpcion.reingreso {
+  background-image: url(assets/images/formulario.png);
+  background-size: cover;
+}
+
+.botonOpcion.egresado {
+  background-image: url(assets/images/formulario.png);
+  background-size: cover;
+} */
+
+.futuraBold {
+  font-family: "Futura-Bold";
+}
+
+.marginTop5 {
+  margin-top: 5px;
+}
+
+.marginTop10 {
+  margin-top: 10px;
+}
+
+.marginTop20 {
+  margin-top: 20px;
+}
+
+.marginTop30 {
+  margin-top: 30px;
+}
+
+.marginTop150 {
+  margin-top: 150px;
+}
+
+.marginTopRow1-5 {
+  margin-top: 1.5vh;
+}
+
+.marginTopRow2 {
+  margin-top: 2vh;
+}
+
+/* .marginTopRow3 */
+
+.marginTopRow50 {
+  margin-top: 50px;
+}
+
+.center {
+  margin: 0px auto;
+}
+
+.contenedorCenterVertical {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Clases de swal alert */
+
+.swal2-container {
+  z-index: 9999 !important;
+}
+
+.swal2-popup {
+  background-color: white !important;
+}
+
+.swal2-title {
+  color: black !important;
+}
+
+.swal2-content {
+  color: #838383 !important;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 575.98px) {
+  .fz-r {
+    font-size: 20pt !important;
+  }
+}
+
+.container-fluid {
+  overflow: hidden;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.iconoCard {
+  max-height: 150px;
+}
+
+.animate__delay-1s {
+  -webkit-animation-delay: 0.5s !important;
+  animation-delay: 0.5s !important;
+}
+
+.loading {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lds-grid {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-grid div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #f18a00;
+  animation: lds-grid 1.2s linear infinite;
+}
+.lds-grid div:nth-child(1) {
+  top: 8px;
+  left: 8px;
+  animation-delay: 0s;
+}
+.lds-grid div:nth-child(2) {
+  top: 8px;
+  left: 32px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(3) {
+  top: 8px;
+  left: 56px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(4) {
+  top: 32px;
+  left: 8px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(5) {
+  top: 32px;
+  left: 32px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(6) {
+  top: 32px;
+  left: 56px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(7) {
+  top: 56px;
+  left: 8px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(8) {
+  top: 56px;
+  left: 32px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(9) {
+  top: 56px;
+  left: 56px;
+  animation-delay: -1.6s;
+}
+@keyframes lds-grid {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.wrap-form {
+  position: relative;
+}
+
+.bar-blue {
+  background: #003a70;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+}
+
+.bg-form {
+  margin-left: -3%;
+  max-width: 42vw;
+  width: 100%;
+  max-height: 825px;
+}
+
+.bg-3 {
+  background: #1b3c6c;
+}
+
+.bg-gray {
+  background: #f2f2f2;
+}
+
+.orange-circle {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: -83px;
+  left: -110px;
+  z-index: 2;
+}
+
+.txt-c1 {
+  color: #1b3c6c;
+}
+
+.ff-1 {
+  font-family: "Futura-Medium" !important;
+}
+
+.ff-2 {
+  font-family: "Futura-Bold" !important;
+}
+
+.form-group label {
+  color: #1b3c6c;
+  font-family: "Futura-Medium" !important;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  border-radius: 30px;
+  background: #dce9f7;
+}
+
+.form-group input {
+  border-radius: 30px;
+  background: #dce9f7;
+  border-color: transparent !important;
+}
+
+.banner-internal {
+  background-size: cover !important;
+  background-position: bottom center !important;
+  background-repeat: no-repeat !important;
+}
+
+.dropdown-toggle.nav-link {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.text-banner-webinar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.list-group-item {
+  border-radius: 0px !important;
+}
+
+.img-item-card {
+  height: 200px;
+  border-radius: 30px 30px 0px 0px;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.card {
+  background: transparent;
+}
+
+.card-body {
+  border-radius: 30px;
+  background: #f2f2f2;
+}
+
+.card-title {
+  text-transform: uppercase;
+  color: #1e3666;
+  font-family: Futura-Bold;
+  font-size: 23px;
+  margin-bottom: 25px;
+}
+
+.card-text {
+  color: #1e3666 !important;
+}
+
+.text-date {
+  color: #1e3666 !important;
+  font-family: Futura-Medium;
+}
+
+.distance {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  max-height: 190px;
+}
+
+.dropdown-menu {
+  width: 100%;
+  text-align: center;
+}
+
+.botoninterno {
+  max-width: 300px;
+  font-size: 15px !important;
+  text-align: center;
+  margin: auto;
+}
+.alertaformulario {
+  position: absolute;
+}

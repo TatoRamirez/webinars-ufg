@@ -1,0 +1,880 @@
+/* media para smartphone portrait */
+
+.main-container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 501px) {
+    /* menu */
+    .logo {
+        margin-top: 1.7rem;
+        width: 40%!important;
+    }
+    .iconos {
+        margin-top: -25px!important;
+    }
+    .colMenuHide {
+        display: block;
+    }
+    .icono {
+        width: 35px;
+        height: 35px;
+    }
+    /* banner
+    .banner {
+        margin-top: 4rem;
+        height: 250px;
+    }*/
+    .cajaOpacidad {
+        margin-top: -250px;
+        height: 250px;
+    }
+    /* .orangeReingreso{
+        display: none;
+    } */
+    .orangeReingresoMovil {
+        display: block;
+    }
+    .tituloBanner {
+        font-size: 25pt;
+        margin-top: 12.5rem;
+    }
+    /* cards */
+    .flip {
+        width: 270px!important;
+    }
+    .cajaCards {
+        margin-top: -1rem;
+    }
+    /* condiciones */
+    .tituloCondiciones {
+        font-size: 25pt;
+        margin-top: -1rem;
+    }
+    .colorEtiqueta p {
+        font-size: 13pt;
+    }
+    .colorEtiqueta li {
+        font-size: 18pt;
+    }
+    .contenidoCondiciones {
+        padding-left: 1rem;
+    }
+    .condiciones {
+        margin-top: 1rem;
+    }
+    .listaOl {
+        margin-top: -2rem;
+    }
+    .linea {
+        border-right: none;
+    }
+    /* footer */
+    .lineaBorde {
+        border-right-style: none;
+    }
+    .itemFooter {
+        margin-top: 1rem;
+        text-align: left;
+    }
+    /* formulario carnetizacion */
+    .tituloh2 {
+        color: #1e3666;
+    }
+    .contenedorFormMovilPrincipal {
+        display: block;
+    }
+    /* login */
+    .contenedorLogin {
+        height: 165px!important;
+    }
+    .contenedorTitlesLogin {
+        display: block!important;
+        padding-top: 1rem;
+    }
+    .espacioLoginFooter {
+        display: block!important;
+    }
+    .login {
+        margin-top: -135px!important;
+        height: 250px!important;
+    }
+    .titlesLogin h1 {
+        font-size: 20pt;
+    }
+    .titlesLogin h4 {
+        font-size: 14pt;
+    }
+    .filaSalir {
+        margin-top: 4rem;
+        padding-bottom: 0px;
+    }
+    /* scanner */
+    .contenedorScanner {
+        margin-top: 30px;
+    }
+    .title .subtitle {
+        font-size: 18pt;
+    }
+    .contenedorCenterVertical h4 {
+        font-size: 14pt;
+    }
+    /* modal de foto recomendada*/
+    #colorRecomendacionesMovil {
+        font-size: 16pt;
+    }
+    .colorEtiquetaRecomendacionesMovil {
+        width: 100%;
+    }
+    .colorEtiquetaRecomendacionesMovil p {
+        font-size: 11pt;
+    }
+}
+
+
+/* media para smartphone landscape */
+
+@media only screen and (min-width: 502px) and (max-width: 767px) {
+    /* menu */
+    .logo {
+        margin-top: 1.7rem;
+        width: 170%;
+    }
+    .iconos {
+        margin-top: -10px!important;
+    }
+    .colMenuHide {
+        display: block;
+    }
+    .icono {
+        width: 35px;
+        height: 35px;
+    }
+
+    .cajaOpacidad {
+        margin-top: -300px;
+        height: 300px;
+    }
+    /* .orangeReingreso{
+        display: none;
+    } */
+    .orangeReingresoMovil {
+        display: block;
+    }
+    .tituloBanner {
+        font-size: 25pt;
+        margin-top: 11rem;
+    }
+    /* cards */
+    .flip {
+        width: 270px!important;
+    }
+    .cajaCards {
+        margin-top: -1rem;
+    }
+    /* condiciones */
+    .tituloCondiciones {
+        font-size: 25pt;
+        margin-top: -1rem;
+    }
+    .colorEtiqueta p {
+        font-size: 13pt;
+    }
+    .colorEtiqueta li {
+        font-size: 18pt;
+    }
+    .linea {
+        border-right: none;
+    }
+    .contenidoCondiciones {
+        padding-left: 1rem;
+    }
+    .listaOl {
+        margin-top: -2rem;
+    }
+    /* footer */
+    .lineaBorde {
+        border-right-style: none;
+    }
+    .itemFooter {
+        margin-top: 1rem;
+        text-align: left;
+    }
+    /* formulario carnetizacion */
+    .tituloh2 {
+        color: #1e3666;
+    }
+    .contenedorFormMovilPrincipal {
+        display: block;
+    }
+    /* login */
+    .contenedorLogin {
+        margin-top: 30px!important;
+        height: 150px!important;
+    }
+    .contenedorTitlesLogin {
+        display: block!important;
+        padding-top: 1rem;
+    }
+    .espacioLoginFooter {
+        display: block!important;
+    }
+    .login {
+        margin-top: -150px!important;
+        height: 250px!important;
+    }
+    .titlesLogin h1 {
+        font-size: 20pt;
+    }
+    .titlesLogin h4 {
+        font-size: 12pt;
+    }
+    .filaSalir {
+        margin-top: 4rem;
+        padding-bottom: 0px;
+    }
+    .contenedorCenterVertical {
+        display: block;
+    }
+    /* scanner */
+    .contenedorScanner {
+        margin-top: 30px;
+    }
+    /* modal de foto recomendada*/
+    #colorRecomendacionesMovil {
+        font-size: 18pt;
+    }
+    .colorEtiquetaRecomendacionesMovil {
+        width: 80%;
+    }
+    .colorEtiquetaRecomendacionesMovil p {
+        font-size: 12pt;
+    }
+}
+
+
+/* media para tablet portrait */
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    /* menu */
+    .logo {
+        margin-top: 1rem;
+        width: 175%;
+    }
+    .iconos {
+        margin-top: -10px!important;
+    }
+    /* .row{
+        margin-left: -8px!important;
+        margin-right: -8px!important;
+    } */
+    .colMenuHide {
+        display: block;
+    }
+    .icono {
+        width: 35px;
+        height: 35px;
+    }
+
+    .cajaOpacidad {
+        margin-top: -300px;
+        height: 300px;
+    }
+    /* .orangeReingreso{
+        display: none;
+    } */
+    .orangeReingresoMovil {
+        display: block;
+    }
+    .tituloBanner {
+        font-size: 25pt;
+        margin-top: 11rem;
+    }
+    /* cards */
+    .flip {
+        width: 270px!important;
+    }
+    .cajaCards {
+        margin-top: -1rem;
+    }
+    /* condiciones */
+    .tituloCondiciones {
+        font-size: 25pt;
+        margin-top: -1rem;
+    }
+    .colorEtiqueta p {
+        font-size: 13pt;
+    }
+    .colorEtiqueta li {
+        font-size: 18pt;
+    }
+    .linea {
+        border-right: none;
+    }
+    .contenidoCondiciones {
+        padding-left: 1rem;
+    }
+    .listaOl {
+        margin-top: -2rem;
+    }
+    /* footer */
+    .lineaBorde {
+        border-right-style: none;
+    }
+    .itemFooter {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    /* formulario carnetizacion */
+    .tituloh2 {
+        color: #1e3666;
+    }
+    .contenedorFormMovilPrincipal {
+        display: block;
+    }
+    /* login */
+    .contenedorLogin {
+        margin-top: 30px!important;
+        height: 150px!important;
+    }
+    .contenedorTitlesLogin {
+        display: block!important;
+        padding-top: 1rem;
+    }
+    .espacioLoginFooter {
+        display: block!important;
+    }
+    .login {
+        margin-top: -150px!important;
+        height: 250px!important;
+    }
+    .titlesLogin h1 {
+        font-size: 25pt;
+    }
+    .titlesLogin h4 {
+        font-size: 14pt;
+    }
+    .filaSalir {
+        margin-top: 4rem;
+        padding-bottom: 0px;
+    }
+    .contenedorCenterVertical {
+        display: block;
+    }
+    /* scanner */
+    .contenedorScanner {
+        margin-top: 30px;
+    }
+    /* modal de foto recomendada*/
+    #colorRecomendacionesMovil {
+        font-size: 18pt;
+    }
+    .colorEtiquetaRecomendacionesMovil {
+        width: 80%;
+    }
+    .colorEtiquetaRecomendacionesMovil p {
+        font-size: 12pt;
+    }
+}
+
+
+/* media para tablet landscape */
+
+@media (min-width: 1023px) and (max-width: 1279px) {
+    /* menu */
+    .logo {
+        margin-top: 1rem;
+        width: 125%;
+    }
+    .iconos {
+        margin-top: -10px!important;
+    }
+    /* .row{
+        margin-left: -8px!important;
+        margin-right: -8px!important;
+    } */
+    .colMenuHide {
+        display: block;
+    }
+    .icono {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cajaOpacidad {
+        margin-top: -300px;
+        height: 300px;
+    }
+    /* .orangeReingreso{
+        display: none;
+    } */
+    .orangeReingresoMovil {
+        display: block;
+    }
+    .tituloBanner {
+        font-size: 25pt;
+        margin-top: 11rem;
+    }
+    /* cards */
+    .flip {
+        width: 270px!important;
+    }
+    .cajaCards {
+        margin-top: -1rem;
+    }
+    /* condiciones */
+    .tituloCondiciones {
+        font-size: 25pt;
+        margin-top: -1rem;
+    }
+    .colorEtiqueta p {
+        font-size: 13pt;
+    }
+    .colorEtiqueta li {
+        font-size: 18pt;
+    }
+    .linea {
+        border-right: none;
+    }
+    .contenidoCondiciones {
+        padding-left: 1rem;
+    }
+    .listaOl {
+        margin-top: -2rem;
+    }
+    /* footer */
+    .lineaBorde {
+        border-right-style: none;
+    }
+    .itemFooter {
+        margin-top: 1rem;
+        text-align: left;
+    }
+    /* formulario carnetizacion */
+    .tituloh2 {
+        color: #1e3666;
+    }
+    .contenedorFormMovilPrincipal {
+        display: block;
+    }
+    /* login */
+    .titlesLogin h1 {
+        font-size: 24pt;
+    }
+    .titlesLogin h4 {
+        font-size: 16pt;
+    }
+    /* scanner */
+    .contenedorScanner {
+        margin-top: 30px;
+    }
+    /* modal de foto recomendada*/
+    #colorRecomendacionesMovil {
+        font-size: 18pt;
+    }
+    .colorEtiquetaRecomendacionesMovil {
+        width: 80%;
+    }
+    .colorEtiquetaRecomendacionesMovil p {
+        font-size: 12pt;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+    .logo {
+        margin-top: 1.5rem;
+        width: 80%;
+    }
+    .icono {
+        padding: 2px;
+    }
+    .contenedor {
+        height: 86vh;
+        top: -7vh;
+        width: 103%;
+    }
+    .textoCards {
+        font-size: 11pt;
+    }
+    .iconoCard {
+        width: 140px;
+    }
+    .iconoCardAvanza {
+        width: 90px;
+    }
+    .tituloCard h4 {
+        font-size: 14pt;
+    }
+    .tituloCardAvanza h4 {
+        font-size: 14pt;
+    }
+    
+    /* .textoCard1{
+        padding-top: 1.8rem;
+    }
+
+    .textoCard2{
+        font-size: 10pt;
+        padding-top: 0.3rem;
+    }
+
+    .textoCard3{
+        padding-top: 3rem;
+    }
+
+    .textoCard4{
+        padding-top: 1.6rem;
+    }
+
+    .textoCard5{
+        padding-top: 1rem;
+    } */
+
+    .modalContentConfirm {
+        margin: -1rem auto;
+        width: 60%;
+        height: 550px;
+    }
+    .error {
+        margin-top: 120px;
+    }
+    .parrafoIzquierdo {
+        margin-top: 170px;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1399px) {
+    .logo {
+        margin-top: 1.3rem;
+        width: 85%;
+    }
+    .icono {
+        padding: 1px;
+    }
+    .contenedor {
+        height: 86vh;
+        top: -6vh;
+    }
+    .textoCards {
+        font-size: 12pt;
+    }
+    .iconoCard {
+        width: 140px;
+    }
+    .iconoCardAvanza {
+        width: 70px;
+    }
+    .tituloCard h4 {
+        font-size: 14pt;
+    }
+    .tituloCardAvanza h4 {
+        font-size: 14pt;
+    }
+    .tituloCardAvanza {
+        margin-top: 1rem;
+    }
+
+    /* .textoCard1{
+        padding-top: 1.3rem;
+    }
+
+    .textoCard2{
+        margin-top: 0.6rem;
+        font-size: 10pt;
+    }
+
+    .textoCard3{
+        padding-top: 2.8rem;
+    }
+
+    .textoCard4{
+        padding-top: 1.3rem;
+    }
+
+    .textoCard5{
+        padding-top: 0.6rem;
+    } */
+
+    .modalContentConfirm {
+        margin: -1rem auto;
+        width: 60%;
+        height: 550px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1439px) {
+    .logo {
+        margin-top: 1.2rem;
+        width: 80%;
+    }
+    .contenedor {
+        height: 65vh;
+        top: 8vh;
+    }
+    .textoCards {
+        font-size: 12pt;
+    }
+    .iconoCard {
+        width: 140px;
+    }
+    .iconoCardAvanza {
+        width: 70px;
+    }
+    .tituloCard h4 {
+        font-size: 15pt;
+    }
+    .tituloCardAvanza h4 {
+        font-size: 15pt;
+    }
+    .tituloCardAvanza {
+        margin-top: 1rem;
+    }
+    /* .textoCard1{
+        padding-top: 2.1rem;
+    }
+
+    .textoCard2{
+        margin-top: 0.2rem;
+        font-size: 11pt;
+    }
+
+    .textoCard3{
+        padding-top: 2.8rem;
+    }
+
+    .textoCard4{
+        padding-top: 2rem;
+    }
+
+    .textoCard5{
+        padding-top: 0.7rem;
+    } */
+    .parrafoIzquierdo {
+        margin-top: 180px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+    .logo {
+        margin-top: 1.2rem;
+        width: 80%;
+    }
+    .textoCards {
+        font-size: 12pt;
+    }
+    .iconoCard {
+        width: 140px;
+    }
+    .iconoCardAvanza {
+        width: 70px;
+    }
+    .tituloCard h4 {
+        font-size: 15pt;
+    }
+    .tituloCardAvanza h4 {
+        font-size: 15pt;
+    }
+    .tituloCardAvanza {
+        margin-top: 1rem;
+    }
+    /* .textoCard1{
+        padding-top: 2.1rem;
+    }
+
+    .textoCard2{
+        margin-top: 0.3rem;
+        font-size: 11pt;
+    }
+
+    .textoCard3{
+        padding-top: 2.8rem;
+    }
+
+    .textoCard4{
+        padding-top: 2rem;
+    }
+
+    .textoCard5{
+        padding-top: 1.3rem;
+    } */
+}
+
+@media (min-width: 1600px) and (max-width: 1679px) {
+    .logo {
+        margin-top: 1.2rem;
+        width: 70%;
+    }
+    .contenedor {
+        width: 101%;
+    }
+    /* .textoCard1{
+        padding-top: 1.5rem;
+    }
+
+    .textoCard2{
+        font-size: 12pt;
+    }
+
+    .textoCard3{
+        padding-top: 2.3rem;
+    }
+
+    .textoCard4{
+        padding-top: 1.4rem;
+    }
+
+    .textoCard5{
+        padding-top: 0.6rem;
+    } */
+    .error {
+        margin-top: 75px;
+    }
+    .textoError {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 1919px) {
+    .logo {
+        margin-top: 1rem;
+        width: 70%;
+    }
+    .contenedor {
+        height: 70vh;
+        top: 6vh;
+        width: 101%;
+    }
+    /* .textoCard1{
+        padding-top: 1.5rem;
+    }
+
+    .textoCard2{
+        margin-top: 0.5rem;
+        font-size: 12pt;
+    }
+
+    .textoCard3{
+        padding-top: 2.5rem;
+    }
+
+    .textoCard4{
+        padding-top: 2.3rem;
+    }
+
+    .textoCard5{
+        padding-top: 0.7rem;
+    } */
+    .error {
+        margin-top: 60px;
+    }
+    .textoError {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 1920px) and (max-width: 2047px) {
+    .logo {
+        margin-top: 0.9rem;
+        width: 65%;
+    }
+    .contenedor {
+        height: 65vh;
+        top: 8vh;
+        width: 99%;
+    }
+    /* .textoCard1{
+        padding-top: 2.3rem;
+    }
+
+    .textoCard2{
+        padding-top: 1.1rem;
+    }
+
+    .textoCard3{
+        padding-top: 2.5rem;
+    }
+
+    .textoCard4{
+        padding-top: 2.3rem;
+    }
+
+    .textoCard5{
+        padding-top: 1.5rem;
+    } */
+
+    .error {
+        margin-top: 40px;
+    }
+    .textoError {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 2048px) and (max-width: 2300px) {
+    .logo {
+        margin-top: 0.9rem;
+        width: 60%;
+    }
+    .contenedor {
+        height: 65vh;
+        top: 10vh;
+        width: 99%;
+    }
+    /* .textoCard1{
+        padding-top: 2.3rem;
+    }
+
+    .textoCard2{
+        padding-top: 1rem;
+    }
+
+    .textoCard3{
+        padding-top: 3rem;
+    }
+
+    .textoCard4{
+        padding-top: 2.3rem;
+    }
+
+    .textoCard5{
+        padding-top: 2.3rem;
+    } */
+    .error {
+        margin-top: 30px;
+    }
+    .textoError {
+        margin-top: 90px;
+    }
+}
+
+@media (min-width: 2560px) and (max-width: 2800px) {}
+
+.title-section {
+    font-size: 35pt;
+    color: #EF8903;
+}
+
+.font-weight-bold {
+    font-family: 'Futura-Bold';
+}
+
+.lih-1 {
+    line-height: 1;
+}
+
+.delay-1 {
+    animation-delay: .25s!important;
+}
+
+.delay-2 {
+    animation-delay: .5s !important;
+}
+
+.delay-3 {
+    animation-delay: .75s!important;
+}
+
+.delay-4 {
+    animation-delay: 1s!important;
+}

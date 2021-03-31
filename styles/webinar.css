@@ -1,0 +1,177 @@
+.hrdivisor {
+  border: none;
+  padding: 0px!important;
+  margin: 0px!important;
+  height: 100%;
+  width: 3px;
+  background-color: #f28823;
+}
+
+.webinar-right {
+  border: gray 1px solid;
+  height: 100%;
+}
+
+.webinar-left {
+  height: 100%;
+  background-color: white;
+}
+
+.webinar-color {
+  background-color: #1f3664 !important;
+  border: #1f3664 !important;
+}
+
+.nav-menu-interno {
+  border-bottom: #f28823 10px solid !important;
+}
+
+.menu-interno {
+  background-color: #1f3664 !important;
+  color: white;
+}
+
+.menu-interno a:hover {
+  color: #f28823;
+}
+
+.menu-interno .dropdown-menu {
+  background-color: #1f3664;
+  border: #1f3664;
+  color: white;
+}
+
+.list-group-item.list-group-item-action.active {
+  background-color: white;
+  color: black;
+  border-left: #EB8B05 solid 6px !important;
+  animation-duration: 0.3s;
+}
+
+.btnfoto {
+  width: 13.2rem!important;
+  border-style: none;
+  margin: 1rem;
+}
+
+.nuevo-Webinar {
+  background-color: #F4F8FB!important;
+}
+
+.sombra {
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sombra-card { 
+  box-shadow: 14px 5px 25px -11px rgba(0,0,0,0.63);
+}
+
+.menu-pestaña {
+  border-style: none;
+  color: gray;
+}
+
+.nav-webinar {
+  background-color: white;
+}
+
+.wrapper-photo {
+  padding: 100px;
+}
+
+.image--cover {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+}
+
+.circle-icon {
+  background: #ffc0c0;
+  padding: 30px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.boton-webinar {
+  border-radius: 15px 0px 15px 0px;
+}
+
+.tituloalert {
+  color: black!important;
+  font-size: 1.8rem;
+}
+
+.radio-borde {
+  border-radius: 20px!important;
+}
+
+.img-modal {
+  border-radius: 20px 0 0 20px;
+  max-width: 300px;
+  height: 350px;
+}
+
+.swal2-popup {
+  border-radius: 20px!important;
+  margin: 0px!important;
+  padding: 0px!important;
+}
+
+.swal2-content {
+  padding: 0px!important;
+}
+
+.card {
+  border: 0px!important;
+  height: 100%;
+}
+
+.UW-Cards {
+  text-decoration: none!important;
+  min-width: 300px!important;
+}
+
+.swal2-actions {
+  margin-top: 0px!important;
+}
+
+.boton-modal {
+  background: transparent!important;
+  border: none!important;
+  color: #1F3664!important;
+  box-shadow: none!important;
+}
+
+.boton-modal:hover {
+  color: #6885be!important;
+}
+
+.rodal-dialog.rodal-zoom-enter {
+  height: 360px !important;
+  max-width: 900px !important;
+  width: auto !important;
+  max-height: 500px !important;
+  overflow: auto;
+}
+.imagenmodal {
+  width: 100%;
+  height: 100%;
+}
+.rodalcontainer {
+  height: 100% !important;
+  z-index: 5;
+}
+.bordemodel {
+  border: 1px solid rgb(204, 204, 204) !important;
+}

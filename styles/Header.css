@@ -1,0 +1,292 @@
+.banner {
+  background-image: url(../public/images/fondoBanner.png);
+  /* Foto del banner */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.min-banner {
+  min-height: 700px;
+}
+
+.student{
+  max-width: 525px;
+  width: 100%;
+}
+
+.text-banner{
+  max-width: 400px;
+  width: 100%;
+}
+
+.text-banner-blue{
+  max-width: 700px;
+  width: 100%;
+}
+
+.opacidad {
+  background-color: #00538b;
+  opacity: 0.6;
+}
+
+.tituloBanner {
+  color: white;
+  font-size: 40pt;
+}
+
+.cajaOpacidad {
+  margin-top: -33rem;
+  height: 33rem;
+}
+
+.cajaTitulos {
+  margin-top: -21.5rem;
+}
+
+.franja {
+  background-color: #0f1935;
+  opacity: 0.6;
+  height: 7rem;
+}
+
+/* The Modal (background) */
+
+.documentacion {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 100;
+  /* Sit on top */
+  padding-top: 5rem;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(38, 169, 214, 0.8);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+
+.modalContentReingreso {
+  /*background-color:#E9EBEC;
+  border: 1px solid #888;
+  border-radius: 45px;
+  box-shadow: 0 24px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+  height: 550px;
+  */
+  margin: auto;
+  width: 56%;
+  color: #1e3666;
+  font-size: 14px;
+}
+
+/* The Close Button */
+
+.close4 {
+  color: #fff;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close4:hover, .close4:focus {
+  color: #aaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* estilo para el modal de recomendaciones de la foto*/
+
+#colorRecomendaciones {
+  color: #EF8903;
+}
+
+.colorEtiquetaRecomendaciones {
+  color: #F08805;
+  text-align: left;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.colorEtiquetaRecomendaciones p {
+  color: #3280BF;
+  font-size: 13pt;
+}
+
+.colorEtiquetaRecomendaciones li {
+  font-size: 19pt;
+  font-weight: bold;
+}
+
+#colorRecomendacionesMovil {
+  color: #EF8903;
+  font-size: 18pt;
+}
+
+.colorEtiquetaRecomendacionesMovil {
+  color: #F08805;
+  text-align: left;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.colorEtiquetaRecomendacionesMovil p {
+  color: #3280BF;
+  font-size: 12pt;
+}
+
+.colorEtiquetaRecomendacionesMovil li {
+  font-size: 19pt;
+  font-weight: bold;
+}
+
+.orangeReingresoMovil {
+  display: none;
+}
+
+.dialogTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg-blue {
+  background-color: #0d3b70!important;
+}
+
+.text-white {
+  color: white!important;
+}
+
+.text-blue {
+  color: #02B6C8!important;
+  font-weight: bold!important;
+  letter-spacing: 0px!important;
+  margin: 0!important;
+  text-align: center!important;
+  line-height: 86%;
+}
+
+.p-grande {
+  font-size: 5.5rem!important;
+}
+
+.h6 {
+  font-size: 18px!important;
+  font-weight: bold!important;
+  letter-spacing: 4px!important;
+  margin: 0!important;
+  text-align: center!important;
+}
+
+.m-0 {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #0d3b70!important;
+}
+
+.min-h {
+  min-height: 338px;
+}
+
+.logo-forms {
+  max-width: 300px!important;
+}
+
+.hr-logo {
+  height: 2px;
+  background: #0074c8;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.wrap-banner {
+  overflow: hidden;
+}
+
+.bg-blue-button {
+  background: rgba(255, 255, 255, 0.7);
+  /* Fondo para texto del banner */
+}
+
+.display-5 {
+  font-size: 3.65em;
+}
+
+.orangeReingreso {
+  text-decoration: none!important;
+}
+
+.orangeReingreso:hover {
+  text-decoration: none!important;
+  color: white;
+}
+
+.orangeReingreso:visited {
+  text-decoration: none!important;
+  color: white;
+}
+
+.btn-skies{
+  display: block;
+  padding: 10px 30px;
+  background: #00B6C9;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 15pt;
+  transition: transform 0.3s ease;
+}
+
+.btn-skies:hover{
+  text-decoration: none;
+  color: #fff;
+  transform: scale(1.2);
+}
+
+.btn-orange{
+  display: block;
+  padding: 10px 30px;
+  background: #F18A00;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 15pt;
+  transition: transform 0.3s ease;
+}
+
+.btn-orange:hover{
+  text-decoration: none;
+  color: #fff;
+  transform: scale(1.2);
+}
+
+@media (max-width: 575.98px) {
+  .display-5 {
+    font-size: 3.65em!important;
+  }
+  .orangeReingreso {
+    margin-top: 10px;
+  }
+  .min-banner {
+    min-height: 40vh;
+  }
+  .boton.orangeReingreso {
+    font-size: 25px;
+    width: 280px;
+  }
+}

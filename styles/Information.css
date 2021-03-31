@@ -1,0 +1,131 @@
+.cont {
+    margin-top: 4rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+}
+
+.contenido {
+    padding: 13rem;
+}
+
+.linea {
+    border-right: 2px solid #1B72B8;
+}
+
+.lista {
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+.lista li {
+    font-size: 20pt;
+}
+
+.tituloCondiciones {
+    font-size: 35pt;
+    color: #EF8903;
+}
+
+.contenidoCondiciones {
+    font-size: 18pt;
+    color: #1E74B9;
+    padding-left: 4rem;
+}
+
+.colorEtiqueta {
+    color: #F08805;
+    text-align: left;
+}
+
+.colorEtiqueta p {
+    color: black;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.colorEtiqueta li {
+    font-size: 30px;
+    line-height: 5.5rem;
+}
+
+.info-li {
+    color: #F08805;
+    text-align: left;
+}
+
+.info-li li{
+    font-size: 30px;
+    line-height: 2.3rem;
+}
+
+.info-li p {
+    color: black;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.numeroGrueso span {
+    font-family: 'Futura-Bold';
+}
+
+.title-recomendaciones {
+    color: #F08805;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+
+@media (max-width: 575.98px) {
+    .title-section {
+        font-size: 20pt !important;
+    }
+}
+
+.inform-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inform-list li {
+    display: flex;
+    align-items: center;
+}
+
+.inform-list li p {
+    margin-left: 10px;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.alinear-right {
+    justify-content: flex-end;
+    text-align: justify;
+}
+
+.tam-info {
+    font-size: 20px;
+}
+
+.img-info {
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+    height: 100%;
+}
+
+@media (max-width: 575.98px) {
+    .alinear-right {
+        justify-content: center;
+    }
+    .tam-info {
+        font-size: 15px;
+    }
+    .img-info {
+        min-height: 300px;
+        height: 100%;
+    }
+}
+
+.linea{
+    border: 2px solid #ee8705;
+  }

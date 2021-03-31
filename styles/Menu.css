@@ -1,0 +1,46 @@
+.menu{
+    min-height: 7rem;
+    /* position: fixed; */
+}
+.iconos{
+    padding-top: 3rem;
+}
+
+.icono{
+    width: 30px;
+    height: 30px;
+}
+
+.bordes{
+    border-style: solid;
+}
+
+.colMenuHide{
+    display: none;
+}
+
+.filaSalir{
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
+
+.wrap-logo{
+    max-width: 150px;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 300px;
+    width: 100%;
+    min-height: 85px;
+}
+
+.social-icons a{
+    max-width: 35px;
+}
+
+.social-icons a img{
+    width: 100%;
+}
